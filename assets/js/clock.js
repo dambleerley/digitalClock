@@ -26,7 +26,7 @@ function clock()
         var clockResult = hora+":"+minutos+":"+segundos;
     
         var clock = document.getElementById("clock");
-        clock.innerHTML = clockResult;
+        clock.innerHTML = "<i class=\"far fa-clock\"></i> "+clockResult;
     }
 
     setInterval(time,1000)
